@@ -18,8 +18,4 @@ class MP3Importer
     self.files.each do |file|
       Song.new_by_filename(file)
     end
-=======
-    Dir.entries(ruby-collaborating-objects-lab/spec/fixtures/mp3s/**/*.mp3")
->>>>>>> 41a01d018c6e8aea9146372e956307ac99efb7e0
-  end
-end
+
