@@ -5,9 +5,8 @@ class MP3Importer
     @path = path
   end
   def files
-<<<<<<< HEAD
     mp3files = File.join("**", "/*.mp3")
-    with_file_paths = Dir.glob(mp3files)
+    with_file_paths = Dir.glob(path)
     @filenames = []
     with_file_paths.each do |path_name|
       path_array = path_name.split('/')
